@@ -209,7 +209,6 @@ def main():
                         beams[j] = None
                         score.score += 1  
                         bird.change_img(6, screen)  # こうかとん画像を切り替え
-                        bird.change_img(6, screen)
                 if beams[j] is not None and bombs[i] is not None:
                     if check_bound(beams[j].rct) != (True, True):
                         beams[j] = None
